@@ -126,11 +126,9 @@ public class Main {
 			}
 		}
 		
-		for (Point p : bestRoute) {
-			sb.append(singaporeMountain[p.y][p.x]);
-		}
+		sb.append(bestRoute.size());
 		sb.append(prevDropDiff);
-		System.out.println("best route > " + sb.toString());
+		System.out.println("email > " + sb.toString() + "@redmart.com");
 	}
 	
 	// iterates through all available ski points around input point
